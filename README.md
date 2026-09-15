@@ -20,3 +20,7 @@ Pak ZIP-filen ud og åbn `index.html` i Chrome/Edge/Safari.
 ## GitHub Pages
 Upload hele indholdet til et public repository.
 Gå til Settings → Pages → Deploy from branch → main → /(root).
+
+
+## V2.1 hotfix
+`head.png` ligger nu direkte i roden, så alle fem webfiler kan uploades samlet i GitHub uden en `assets`-mappe.

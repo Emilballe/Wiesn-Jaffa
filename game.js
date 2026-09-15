@@ -18,7 +18,7 @@ const ui = {
 };
 
 const head = new Image();
-head.src = 'assets/head.png';
+head.src = 'head.png';
 
 const keys = Object.create(null);
 let running = false, paused = false;
