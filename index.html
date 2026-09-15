@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#123d73">
+  <title>WIESN-JAFFA 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="gameShell">
+    <canvas id="game" width="720" height="1080" aria-label="Wiesn-Jaffa 2026"></canvas>
+
+    <div id="hud">
+      <div class="stat">🥨 <b id="pretzels">0</b></div>
+      <div class="stat">🍺 <b id="beers">0</b></div>
+      <div class="stat">❤️ <b id="lives">3</b></div>
+      <div class="score">SCORE <b id="score">0</b></div>
+      <div class="prostbox"><span>PROST</span><div id="prostBar"><i></i></div></div>
+    </div>
+
+    <div id="touch">
+      <button data-key="arrowup">▲</button>
+      <button data-key="arrowleft">◀</button>
+      <button data-key="arrowdown">▼</button>
+      <button data-key="arrowright">▶</button>
+    </div>
+
+    <div id="overlay">
+      <div class="panel">
+        <div class="logo">WIESN-JAFFA <span>2026</span></div>
+        <div class="tag">SAME FACE. MORE MASS.</div>
+        <p class="lead">Fang pretzels, Maß og dirndl-piger. Undgå security.</p>
+        <div class="rules">
+          <span>🥨 +100</span><span>🍺 +250</span><span>💃 +500</span><span>🕶️ −1 liv</span>
+        </div>
+        <p><strong>3 Maß i træk = PROST MODE</strong> · 2× point i 10 sek.</p>
+        <button id="startBtn">O'ZAPFT IS! 🍺</button>
+        <p class="small">WASD / piletaster · touch på mobil · P = pause</p>
+      </div>
+    </div>
+
+    <div id="pause">PAUSE</div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
